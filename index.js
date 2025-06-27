@@ -1,7 +1,7 @@
-function addApi() {
+function findCity() {
   let apiKey = "79f10te4a3db72b2821oed920f46defa";
-  let apiUrl ="https://api.shecodes.io/weather/v1/current?query={query}&key={key}
-"
+  let apiUrl =`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
+
 }
 
 function searchBox(event) {
