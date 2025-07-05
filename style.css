@@ -73,6 +73,9 @@ font-size: 50px;
     position: fixed;
     bottom: 60px;
 }
+.footer a{
+    text-decoration: none;
+}
 #temp{
     color: brown;
 }
