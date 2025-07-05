@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weather App</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+         <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+          <title>weather App</title>
+
 </head>
 <body>
     <div class="App">
          <div class="header">
             <h2>Weather Forecast </h2>
-            <input  class="input-box" placeholder="Enter the City"  type="text">
-            <button class="search-box" onclick="searchBox(event)"><search>search</search></button>
+            <header> 
+                <form class="search-form" id="search-form">
+                    <input type="search"  class="input-box" required  placeholder="Enter the City"  type="text" id="input-box">
+                   <input type="submit" class="search-box" value="search" id="search-box">
+            </form>
+                
             </div>
-            <div class="content">
-                <h1 id="myHeading">Paris</h1>
-                <h3 id="temperature">25&deg;C</h3>
+        </header>
+        <main>
+            <h1 id="myHeading">Paris</h1>
+                <h3 ><span id="temperature">25</span>&deg;C</h3>
             <div class="emoji"><span>⛅</span></div>
-           <div id="date"> <p>25 June 2025, <span id="temp">partly cloudy</span></p></div>
-            <div id="wind"><p>wind: &nbsp;humidity</p></div>
-        </div>
+            <div id="date">
+                 <p class="weather-details">
+               <span id="time">Tuesday 14:49</span>, <span id="description"></span> 
+               <br>
+              humidity: <strong id="humidity"></strong> , wind: <strong id="wind-speed"></strong>
+                 </p>
+             </div>
+          
+        
+          </main>
+            
             
             <div class="footer">
                 <p>coded by Lebogang Sekgatja &nbsp;

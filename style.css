@@ -35,7 +35,7 @@ body{
    border: none;
    border-radius: 10px;
 }
-.content h1{
+ h1{
     font-size: 60px;
     
     width: fit-content;
@@ -43,7 +43,7 @@ body{
     color: antiquewhite;
     padding: 20px;
 }
-.content h3{
+ h3{
 position: relative;
 bottom: 25px; 
 left: 100px;
@@ -61,6 +61,9 @@ font-size: 40px;
     left: 340px;
     bottom: 200px;
 }
+#description{
+    color:rgb(218, 151, 51);
+}
 #wind{
   position: relative;
     left: 340px;
@@ -72,4 +75,7 @@ font-size: 40px;
 }
 #temp{
     color: brown;
+}
+#wind{
+    color:aqua
 }
