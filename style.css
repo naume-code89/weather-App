@@ -47,19 +47,19 @@ body{
 position: relative;
 bottom: 25px; 
 left: 100px;
-font-size: 40px;
+font-size: 50px;
 
 }
 .emoji {
     position: relative;
     right: 8px;
-    bottom: 130px;
+    bottom: 150px;
     font-size: 70px;
 }
 #date{
     position: relative;
     left: 340px;
-    bottom: 200px;
+    bottom: 230px;
 }
 #description{
     color:rgb(218, 151, 51);
