@@ -53,13 +53,13 @@ font-size: 50px;
 .emoji {
     position: relative;
     right: 8px;
-    bottom: 150px;
+    bottom: 80px;
     font-size: 70px;
 }
 #date{
-    position: relative;
-    left: 340px;
-    bottom: 230px;
+    position: absolute;
+    left: 380px;
+    bottom: 120px;
 }
 #description{
     color:rgb(218, 151, 51);
@@ -70,8 +70,8 @@ font-size: 50px;
     bottom: 210px;    
 }
 .footer{
-    position: relative;
-    bottom: 150px;
+    position: fixed;
+    bottom: 60px;
 }
 #temp{
     color: brown;
